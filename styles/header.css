@@ -1,0 +1,39 @@
+.header{
+  width: 100%;
+  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(189,225,255,1) 100%);
+  padding: 10px 20px;
+  border-radius: 0 0 8% 8%;
+  position: relative;
+}
+
+.form{
+  position: relative;
+  bottom: -200px;
+}
+
+.p-absolute{
+  position: absolute;
+}
+
+h1{
+  color: var(--heading);
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.margin-bottom{
+  margin-bottom: 1.5em;
+}
+
+p{
+  color: var(--text);
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.header__img,h1{
+  text-align: center;
+}

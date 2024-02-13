@@ -1,0 +1,64 @@
+@import url(../styles/header.css);
+@import url(../styles/form.css);
+@import url(../styles/meaning.css);
+@import url(../styles/tips.css);
+@import url(../styles/limitations.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  color: var(--text);
+  
+}
+
+:root{
+  font-family: Inter,sans-serif;
+  --heading: hsl(215, 31%, 21%);
+    --text: hsl(215, 17%, 45%);
+    --card-bg: hsl(0, 0%, 100%);
+    --radio-border: hsl(200, 24%, 88%);
+    --radio-border-hover: hsl(227, 92%, 58%);
+    --radio-border-checked: hsl(220, 43%, 92%);
+    --radio-bg-checked: hsl(227, 92%, 58%);
+    --input-label: hsl(215, 17%, 45%);
+    --input-border: hsl(200, 24%, 88%);
+    --input-border-active: hsl(227, 92%, 58%);
+    --input-text: hsl(215, 31%, 21%);
+    --input-placeholder: rgba(37, 51, 70, .25);
+    --input-text: hsl(215, 31%, 21%);
+    --input-unit: hsl(227, 92%, 58%);
+    --box-shadow: hsla(211, 41%, 69%, .25);
+    --result-text: hsl(0, 0%, 100%);
+    --image-bg: hsl(203, 92%, 95%);
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+h2{
+  font-size: 2em;
+  letter-spacing: -.1rem
+}
+ p{
+  text-align: left;
+  line-height: 1.5em;
+  color: var(--text);
+  font-weight: 400;
+}
+
+
+h3{
+  font-size: 1.5em;
+}
+
+.title{
+  color: #000;
+}
+
+.bold{
+  color: #fff;
+  font-weight: 600;
+}

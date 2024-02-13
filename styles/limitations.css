@@ -1,0 +1,50 @@
+.limitations{
+  padding: 3rem 1.8rem 1.2rem;
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.limitations__container{
+  display: grid;
+  gap: 1.5em;
+}
+
+.limitations h2{
+  text-align: center;
+}
+.limitations>p{
+  text-align: center;
+
+}
+
+.limitations__card{
+  background-color: var(--card-bg);
+  display: grid;
+  grid-template-areas: 
+  "img h3"
+  "p   p";
+  row-gap: 1rem;
+  grid-template-columns: auto 1fr;
+  gap:1rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 16px 32px 56px 0 var(--box-shadow);
+}
+
+.limitations__card figure{
+  justify-self: start;
+}
+
+.limitations__card img{
+  grid-area: img;
+}
+
+.limitations__card h3{
+  grid-area: h3;
+}
+
+.limitations__card p{
+  grid-area: p;
+  line-height: 1.5;
+}
+

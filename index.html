@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <script src="./js/index.js" defer></script>
+
+  <title>Frontend Mentor | Body Mass Index Calculator</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__img">
+        <img src="img/logo.svg" alt="Logo" class="margin-bottom">
+      </div>
+      <h1 class="txt-center title">Body Mass
+        <br>
+        Index Calculator
+      </h1>
+      <p class="margin-bottom p-absolute">Better understand your weight in relation to your height using our body mass index (BM) calculator. While BMI is not the sole determinant of a healthy weight, it offers a valuable starting point to evaluate your overall health and well-being.</p>
+    </div>
+    <main>
+      <form class="form" data-sistem="metric">
+  
+        <h2 class="margin-bottom title">Enter your details bellow</h2>
+        <div class="form__inputs-radio margin-bottom">
+          <div class="form__input-radio ">
+            <input type="radio" name="radio" id="metric" checked>
+          <label for="metric">Metric</label>
+          </div> 
+          <div class="form__input-radio">
+            <input type="radio" name="radio" id="imperial">
+            <label for="imperial">Imperial</label>
+          </div>
+        </div>
+        
+        <fieldset class="margin-bottom">
+          
+            <label class="form__user-data-name">Height</label> 
+            <div class="form__container margin-bottom">
+              <input type="number" class="form__user-data-number " data-dado="height" placeholder="0">
+              <label>cm</label>
+            </div>
+
+            <label class="form__user-data-name">Weight</label>
+            <div class="form__container margin-bottom">
+              <input type="number" class="form__user-data-number " data-dado="weight" placeholder="0">
+              <label>kg</label>
+            </div>
+        </fieldset>
+        <div class="form-result">
+          <h2>Welcome!</h2>
+          <p>Enter your weight and your height and you'll see your BMI results here</p>
+        </div> 
+      </form>
+    </main>
+  </header> 
+  <section class="meaning">
+    <figure class="margin-bottom">
+      <img src="img/image-man-eating.webp" alt="">
+    </figure>
+    <h2 class="margin-bottom title">What your BMI result means</h2>
+    <p>
+      A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a healthy weight may lower your chances of experiencing health issues later on, such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced fat and sugar content, incorporating ample fruits and vegetables. Additionally, strive for regular physical activity, ideally about 30 minutes daily for five days a week.
+    </p>    
+  </section>
+  <section class="tips">
+    <div class="tips__card">
+      <img src="img/icon-eating.svg" alt="food">
+      <h3 class="title">Health eating</h3>
+      <p>Healthy eating promotes weight control, disease prevention, better digestion, immunity, mental clarity, and mood.</p>
+    </div>
+
+    <div class="tips__card">
+      <img src="img/icon-exercise.svg" alt="halter">
+      <h3 class="title">Regular exercise</h3>
+      <p>Exercise improves fitness, aids weight control, elevates mood, and reduces disease risk, fostering wellness and longevity.</p>
+    </div>
+    <div class="tips__card">
+      <img src="img/icon-sleep.svg" alt="moon">
+      <h3 class="title">Adequade sleep</h3>
+      <p>Sleep enhances mental clarity, emotional stability, and physical wellness, promoting overall restoration and rejuvenation.</p>
+    </div>
+  </section>
+
+  <section class="limitations">
+    <h2 class="margin-bottom title">Limitations of BMI</h2>
+    <p>
+      Although BMI is often a practical indicator of healthy weight, it is not suited for every person. Specific groups should carefully consider their BMI outcomes, and in certain cases, the measurement may not be beneficial to use.
+    </p>
+    <ul class="limitations__container">
+
+      <li class="limitations__card">
+        <figure>
+          <img src="img/icon-gender.svg" alt="gender icon">
+        </figure>
+        <h3 class="limitations__title title">Gender</h3>
+          <p>The development and body fat composition of girls and boys vary with age. Consequently, a child's age and gender are considered when evaluating their BMI.</p>
+        </li>
+        <li class="limitations__card">
+          <figure>
+            <img src="img/icon-age.svg" alt="birthday cake">
+          </figure>
+          <h3 class="limitations__title title">Age</h3>
+          <p>In aging individuals, increased body fat and muscle loss may cause BMI to underestimate body fat content.</p>
+        </li>
+        <li class="limitations__card">
+          <figure>
+            <img src="img/icon-muscle.svg" alt="biceps">
+          </figure>
+          <h3 class="limitations__title title">Muscle</h3>
+          <p>BMI may misclassify muscular individuals as overweight or obese, as it doesn't differentiate muscle from fat.</p>
+        </li>
+        <li class="limitations__card">
+          <figure>
+            <img src="img/icon-pregnancy.svg" alt="baby icon">
+          </figure>
+          <h3 class="limitations__title title">Pregnancy</h3>
+          <p>Expectant mothers experience weight gain due to their growing baby. Maintaining a healthy pre-pregnancy BMI is advisable to minimise health risks for both mother and child.</p>
+        </li>
+        <li class="limitations__card" id="lastCard">
+          <figure>
+            <img src="img/icon-race.svg" alt="human body">
+          </figure>
+          <h3 class="limitations__title title" >Race</h3>
+          <p>Certain health concerns may affect individuals of some Black and Asian origins at lower BMIs than others. To learn more, it is advised to discuss this with your GP or practice nurse.</p>
+        </li>
+    </ul>
+  </section>
+
+</body>
+</html>
