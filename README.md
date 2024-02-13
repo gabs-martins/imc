@@ -8,7 +8,7 @@
 ## ⚠️ Layout para telas acima de 600px a desenvolver.
 
 
-*aqui fica o link
+https://gabs-martins.github.io/imc/
 
 
 O desafio proposto pelo Front-End Mentor trata-se de uma calculadora IMC que pega os dados do usuário e dá o resultado, Colocando também a faixa de peso ideal conforme a altura.
