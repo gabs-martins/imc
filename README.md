@@ -4,7 +4,6 @@
 
 # Sobre o projeto
 
-## ⚠️ temporariamente calculando apenas no sistema métrico.
 ## ⚠️ Layout para telas acima de 600px a desenvolver.
 
 
