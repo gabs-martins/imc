@@ -1,22 +1,16 @@
-# Body Mass Index Calculator
+# Biel Store
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/gabs-martins/todo-list/blob/main/LICENSE) 
 
 # Sobre o projeto
 
-## ⚠️ Layout para telas acima de 600px a desenvolver.
 
-
-https://gabs-martins.github.io/imc/
-
-
-O desafio proposto pelo Front-End Mentor trata-se de uma calculadora IMC que pega os dados do usuário e dá o resultado, Colocando também a faixa de peso ideal conforme a altura.
+https://gabs-martins.github.io/randomStore/
 
 
 # Layout
 
-![IMC](https://github.com/gabs-martins/imc/assets/116783837/72c2e2aa-0477-4019-8459-80fa2c3efe6e)
-
+![BielStore](https://github.com/gabs-martins/randomStore/assets/116783837/302aa5ac-fbad-40bf-b84c-58649fdfff38)
 
 
 ## Front end
